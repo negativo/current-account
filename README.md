@@ -17,6 +17,7 @@ Some points of improvement are:
 
 - Encrypt the customer/account/transactions id sent in the http requests using (eg. using Hashids lib).
 - Move all the text and numeric constants in a separate configuration file.
+- Add in-memory database for testing in the CI.
 
 **Features**
 
@@ -32,6 +33,8 @@ Some points of improvement are:
 - _docker-compose down_ (Destroy application and mysql containers)
 
 ## Running tests
+
+Make sure to have run docker-compose up before these steps. The database is needed.
 
 - _npm run test_ - Run unit tests
 - _npm run test:integration_ - Run integration tests
