@@ -6,7 +6,7 @@ env:
     - PORT=8080
     - DB_HOST=127.0.0.1
     - DB_PORT=3306
-    - DB_CUSTOMER=travis
+    - DB_USER=travis
     - DB_PASSWORD=secret
 
 services:
